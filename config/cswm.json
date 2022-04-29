@@ -1,0 +1,19 @@
+{
+    "model_config": {
+        "cnn_hidden_dim": 32,
+        "mlp_hidden_dim": 512,
+        "gnn_hidden_dim": 512,
+        "embedding_dim": 2,
+        "action_dim": 14,
+        "num_objects": 5,
+        "hinge": 1.0,
+        "sigma": 0.5,
+        "ignore_action": false,
+        "copy_action": false,
+        "num_gnn_layers": 3,
+        "encoder": "small",
+        "attention": {
+            "value_size": 512
+        }
+    }
+}
