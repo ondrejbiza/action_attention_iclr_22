@@ -21,7 +21,7 @@ pip install -r requirements.txt
 
 Currently, this repository contains the code for training, evaluating and visualizing our models on the toy object-based tasks with 2D Shapes and 3D Cubes.
 These environments look identical to the ones used in C-SWM (https://arxiv.org/abs/1911.12247), but differ in their action representation.
-The actions in the C-SWM environment are associate with objects by their indices, whereas our actions choose objects by their positions.
+The actions in the C-SWM environments are associated with objects by their indices, whereas our actions choose objects by their positions.
 The outcome of this change is that it becomes more difficult to learn to distinguish individual objects; hence, the need for action attention.
 
 Collect data for 2D Shapes:
